@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+/* font-family: 'Source Serif Pro', serif; */
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('UbuntuMono-Bold.woff2') format('woff2'),
+       url('UbuntuMono-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('UbuntuMono-BoldItalic.woff2') format('woff2'),
+       url('UbuntuMono-BoldItalic.woff') format('woff');
+   font-weight: 700;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('UbuntuMono-Italic.woff2') format('woff2'),
+       url('UbuntuMono-Italic.woff') format('woff');
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('UbuntuMono-Regular.woff2') format('woff2'),
+       url('UbuntuMono-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+/* ++++++++++++++++++++++++++++ */
+body{
+   padding: 15px 250px;
+   text-align: justify;
+}
+/* header */
+.header{
+   background: #d6cccc;
+   padding: 15px;
+}
+.menu{
+   text-align: center;
+}
+.menu li{
+display: inline-block;
+margin-left: 25px;
+color: #ffffff;
+}
+/* main */
+h1,
+h2{
+font-size: 30px;
+font-family: 'Source Serif Pro', serif;
+margin: 20px 0;
+word-spacing: 20px;
+}
+img{
+   margin: 20px;
+}
+.quote{
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Ubuntu Mono', serif;
+   font-weight: 700;
+}
+.page1-one {
+   font-family: 'Ubuntu Mono', serif;
+   font-weight: 400;
+   font-style: italic;
+   color: #0a7b7b;
+}
+.container-page .page1 .page1-two {
+   font-family: 'Ubuntu Mono', serif;
+   font-weight: 700;
+   font-style: normal;
+   color: #b4c221;
+}
+.page1-three {
+   font-family: Caveat;
+   font-size: 19px;
+   color: brown;
+}
+.page1-four {
+   font-family: 'Source Serif Pro', serif;
+   font-weight: 600;
+   color: crimson;
+   line-height: 1.5;
+}
+.page1-five {
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+.page1-six {
+   text-decoration: overline;
+   text-indent: 30px;
+}
+.page1-seven {
+   text-decoration: line-through;
+}
+.page2-height{
+   text-shadow: 1px 2px 5px #6f6d6d;
+}
+#text-1{
+   text-indent: 30px;
+   letter-spacing: 2px;
+} 
+#text-2{
+   white-space: nowrap;
+}
+/* footer */
+footer{
+   background: #242222;
+   margin-top: 35px;
+   margin-bottom: 15px;
+   text-align: center;
+   padding: 40px;
+   color: #d6cccc;
+   font-size: 25px;
+}
+footer li{
+   display: inline-block;
+   margin-left: 45px;
+}
+.quote{
+   font-family: 'Ubuntu Mono', serif;
+   font-weight: 600;
+   font-style: italic;
+   color: #9552ed;  
+}
